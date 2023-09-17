@@ -1,0 +1,32 @@
+.btn {
+  position: relative;
+  line-height: 130%;
+  font-weight: 500;
+  background: transparent;
+  border: none;
+  font-family: var(--poppins-medium-20);
+  font-size: var(--poppins-medium-20-size);
+}
+.button {
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--neon);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-13xl);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--poppins-medium-20-size);
+  color: var(--text-dark);
+  font-family: var(--poppins-medium-20);
+}
+
+@media (max-width: 1024px) {
+  .btn {
+    font-size: 16px;
+  }
+  /* .button {
+    padding: 11px 20px;
+  } */
+}

@@ -1,0 +1,252 @@
+.hero-child1 {
+  position: absolute;
+  top: 2%;
+  left: 90%;
+  border-radius: 50%;
+  border: 100px solid var(--blue);
+  width: 550px;
+  height: 550px;
+  transform: rotate(40deg);
+  transform-origin: 0 0;
+  z-index: 0;
+}
+.get-placed-in {
+  font-size: var(--coolvetica-80-size);
+  line-height: 115%;
+  font-family: var(--coolvetica-56);
+  text-align: left;
+}
+.lorem-ipsum-dolor2 {
+  font-size: var(--poppins-regular-20-size);
+  line-height: 130%;
+  text-align: left;
+}
+.highlight-4-icon1 {
+  width: 31.07px;
+  height: 37.07px;
+}
+.image-88-no-bg {
+  position: relative;
+  width: 333.41px;
+  height: 447px;
+  /* top: -135px; */
+  object-fit: cover;
+}
+.image-88-no-bg-wrapper {
+  border-radius: var(--br-21xl);
+  background-color: var(--color-orchid);
+  border: 3.2px solid var(--white);
+  box-sizing: border-box;
+  width: 316.4px;
+  height: 316.4px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 var(--padding-4xl);
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.check-circle-icon1 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.check-circle-group,
+.check-circle-parent {
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-xs);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  color: var(--color-green);
+}
+.got-offer-in {
+  position: relative;
+  line-height: 120%;
+  font-weight: 500;
+}
+.check-circle-container {
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-xs);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  color: var(--color-green);
+}
+.hero-item1 {
+  width: 167.71px;
+  height: 62.75px;
+}
+.get-placed-at {
+  line-height: 130%;
+}
+.get-placed-at-parent{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: var(--poppins-regular-20-size);
+  z-index: 1;
+  width: 90%;
+  margin: auto;
+}
+.icon1,
+.whirlpool-logo-ww-icon1 {
+  position: relative;
+  width: 142.21px;
+  height: 50.96px;
+  object-fit: cover;
+}
+.icon1 {
+  width: 83.2px;
+  height: 70.32px;
+}
+.f-2-icon1,
+.s-icon1,
+.sony-logo-icon1,
+.u-2-icon1 {
+  position: relative;
+  width: 142.21px;
+  height: 25px;
+  object-fit: cover;
+}
+.f-2-icon1,
+.s-icon1,
+.u-2-icon1 {
+  width: 106.66px;
+  height: 37.04px;
+}
+.f-2-icon1,
+.s-icon1 {
+  width: 142.21px;
+  height: 80px;
+}
+.f-2-icon1 {
+  width: 106.66px;
+  height: 42.79px;
+}
+.whirlpool-logo-ww-parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.whirlpool-logo-ww-parent {
+  flex-direction: row;
+  gap: 40px;
+  overflow: auto !important;
+  width: 100%;
+}
+.hero1 {
+  position: relative;
+  background-color: var(--blue-shade);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--poppins-regular-16-size);
+  color: var(--white);
+  font-family: var(--poppins-regular-20);
+  padding-top: 160px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.hero1-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+  gap: 40px;
+  z-index: 1;
+}
+.hero1-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+}
+.lorem-ipsum-dolor2{
+  width: 550px;
+}
+.placement-man-md{
+  display: none;
+  width: 100%;
+}
+.placement-man-icon-md{
+  height: 320px;
+}
+.placement-man-icon{
+  height: 400px;
+}
+
+@media (max-width: 1024px){
+  .get-placed-in {
+    font-size: 56px;
+  }
+  .placement-man-icon{
+    height: 320px;
+  }
+  .hero1-column{
+    gap: 32px;
+  }
+  .hero1-row{
+    gap: 32px;
+    width: 90%;
+  }
+  .lorem-ipsum-dolor2{
+    width: 100%;
+  }
+  .whirlpool-logo-ww-parent{
+    justify-content: flex-start;
+  }
+  .hero1{
+    gap: 50px;
+  }
+  .hero-child1{
+    left: 95%;
+  }
+}
+@media (max-width: 750px){
+  .placement-man-md{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .placement-man-icon{
+    display: none;
+  }
+  .hero1-column{
+    justify-content: center;
+    align-items: center;
+  }
+  .get-placed-in,
+  .lorem-ipsum-dolor2 {
+    text-align: center;
+  }
+  .hero1-row,
+  .get-placed-at-parent{
+    width: 100%;
+  }
+  .hero1{
+    gap: 32px;
+    padding-top: 90px;
+  }
+}
+@media (max-width: 425px){
+  .hero-child1{
+    left: 115%;
+    top: 10%;
+  }
+}

@@ -1,0 +1,111 @@
+.main-container {
+  position: absolute;
+  top: 38px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  /* padding: 34px 265px 80px; */
+  padding: 34px 150px 80px;
+  background-image: url('../../../assests/line-lg.png');
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+}
+.developer-card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 24px;
+}
+.software-developer-container1 {
+  box-sizing: border-box;
+  background: #beeb42;
+  border-radius: 12.5px;
+}
+.image-container9 {
+  box-sizing: border-box;
+  display: block;
+  width: 142px;
+  max-width: initial;
+  height: 160px;
+  border: none;
+  object-fit: cover;
+}
+.img-content-a69daac8 {
+  content: url("https://s3-alpha-sig.figma.com/img/dad7/fb82/a28bd8ab992f3133581a8cce4afa5f20?Expires=1694995200&Signature=GOYmINitbGwascujid0~nt5qoI5UF8DBeeJ7jjWSeXPF12DkzbhCTanEKTRoEPdxOPV8NbxrxqEyoixHtfgjLUMqIytahZvMrHyMsA4IOOZ-Nas8Uo3~6xt~25QVJHtBRNSQ4W1liXP7mF0wY~KZ8VdtCL09SN-vM3RMrcLNzK5YSV4EN33WoFGkaIgrNgjRKjuBIhY9WNAV27CJHV8d2SSjCHd6d7u~Ku5btyxJ41P94xg1Edb8KfB~4gl~WwtXQSTnWpg41tDG3Ejg677gotwWjypfcg-KV9bAYW7HoOOyw~3ildTMQdKu9OV9nEWF2Za~AS23a~0joWMwzSH~Jw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+}
+.software-developer-section {
+  box-sizing: border-box;
+  padding-top: 90px;
+  padding-bottom: 19.5px;
+  margin-left: -41px;
+}
+.frontend-button-container {
+  box-sizing: border-box;
+  /* padding-bottom: 130px; */
+}
+.hire-button {
+  box-sizing: border-box;
+  display: block;
+  width: 153px;
+  height: 54px;
+  font: 500 20px Poppins;
+  color: white;
+  cursor: pointer;
+  background: #6333e3;
+  border: none;
+  border-radius: 40px;
+}
+.frontend-developer-section {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 23px;
+}
+.hr-manager-container {
+  box-sizing: border-box;
+  padding-top: 97px;
+  padding-bottom: 14px;
+  z-index: 1;
+}
+.hr-manager-container1 {
+  box-sizing: border-box;
+  margin-left: -29.5px;
+  background: #beeb42;
+  border-radius: 12.5px;
+}
+.img-content-15ccea3e {
+  content: url("https://s3-alpha-sig.figma.com/img/7f65/e7ed/670340e2e3093713584373ad10b39822?Expires=1694995200&Signature=IixOkNTO9TDV33PK8425FP1zSjsD4T2TKM4hTCPb5ySr4IIoHyCxY5Ciqr~IuvO42IkGLqH4tYLuUzB8QxvlsepifWjoVHipw8nl1x7nvS-1VyTXWS6z3P1gvq8rt86kxhFPwmFY0XA4tKHUeDb7LIRVADiNkGHqMJpR-5cIRODShb3c1LWsi5eczHOuMGJijM8iL8Bk7M6Gewm5FJqU9INbq033ET9SBC-BEdXRqvA36~R58Rc6jJQo5ppATa947nL8ZycYX9HLsq0gFg6IIStK05M8aeP7KBBKJhJrjUbI2Tv-hurH1ZWzJy2vLGY-0NNOygbptw4fwRbBrhr1fw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+}
+
+@media (max-width: 1200px) {
+  .main-container {
+    padding: 34px 0px 80px;
+  }
+}
+@media (max-width: 750px){
+  .frontend-button-container{
+    display: none;
+  }
+}
+@media (max-width: 462px) {
+  .main-container {
+    flex-direction: column;
+    background-image: url('../../../assests/line.png');
+  }
+  .developer-card{
+    margin-left: 50px;
+  }
+  .frontend-developer-section{
+    margin-left: auto;
+    margin-right: 15px;
+    padding-top: unset;
+  }
+}

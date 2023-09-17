@@ -1,0 +1,11 @@
+.special-btn-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.arrow-up {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  margin-top: 80px;
+}

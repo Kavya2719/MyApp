@@ -1,0 +1,78 @@
+.register-now-item {
+  position: absolute;
+  top: 87.72px;
+  left: 935.93px;
+  width: 504.07px;
+  height: 249.81px;
+}
+.register-now-inner {
+  position: absolute;
+  top: 133.17px;
+  left: 0;
+  width: 941.07px;
+  height: 220.32px;
+}
+
+.buttons-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xl);
+  margin-top: 220px;
+  flex-wrap: wrap;
+}
+.register-now1 {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 380px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--coolvetica-56-size);
+  color: var(--text-dark);
+  font-family: var(--coolvetica-56);
+  margin: 80px 0px;
+}
+.line-container {
+  background-image: url("/src/assests/backgroundLine.svg");
+  height: 347px;
+  width: 100%;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  top: 30px;
+  position: absolute;
+}
+@media (max-width: 1024px) {
+  .line-container {
+    background-position: center;
+    top: -30px;
+  }
+  .register-now1 {
+    height: 300px;
+    margin-top: 0px;
+  }
+}
+@media (max-width: 750px){
+  
+}
+@media (max-width: 430px) {
+  .register-now1 {
+    height: 400px;
+  }
+  .buttons-parent {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .line-container {
+    top: 150px;
+    background-image: url('/src/assests/bgLineSmall.svg');
+  }
+}
+
+@media (min-width: 1441px){
+  .line-container{
+    background-image: none;
+  }
+}

@@ -1,0 +1,104 @@
+.placement-guide-section {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
+  padding: 80px 0px;
+  background: white;
+}
+.placement-guide {
+  align-self: center;
+}
+
+.perfect-placement-guide {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  font: 400 24px Coolvetica;
+  color: #6d38fb;
+}
+.placement-guide-container1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+.placement-guide1 {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  font: 400 56px Coolvetica;
+  color: #202020;
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  justify-content: center;
+}
+.placement-guide-container {
+  left: 52.5%;
+  position: absolute;
+  z-index: 1;
+}
+.mentorship-section {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  margin-top: 50px;
+}
+.mentorship-section1 {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+.card-container1 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  padding: 48px 30.5px 49px;
+  border-radius: 16px;
+}
+.mentorship-section2 {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 24px;
+}
+
+#personPNG {
+  width: 200px;
+}
+
+@media screen and (max-width: 1024px) {
+  .placement-guide1{
+    font-size: 40px;
+  }
+  .placement-guide-section{
+    padding: 40px 0px;
+  }
+  #personPNG {
+    width: 140px;
+  }
+  .perfect-placement-guide {
+    font-size: 20px;
+  }
+}
+/* @media (max-width: 750px){
+  .placement-guide1{
+    font-size: 30px;
+  }
+  #personPNG {
+    width: 110px;
+  }
+} */

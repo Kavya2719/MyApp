@@ -1,0 +1,34 @@
+.frame-child {
+  position: relative;
+  width: 112px;
+  height: 104px;
+}
+.remote-or-hybrid {
+  position: relative;
+  line-height: 120%;
+  font-weight: 500;
+}
+.lorem-ipsum-dolor {
+  position: relative;
+  font-size: var(--poppins-regular-16-size);
+  line-height: 120%;
+  display: inline-block;
+  width: 293px;
+}
+.group-parent,
+.remote-or-hybrid-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.group-parent {
+  padding: 0 var(--padding-13xl);
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  text-align: center;
+  font-size: var(--poppins-medium-24-size);
+  color: var(--white);
+  font-family: var(--poppins-medium-20);
+}

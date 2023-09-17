@@ -1,0 +1,32 @@
+.talent-section {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 160px;
+  padding-bottom: 64px;
+  width: 100%;
+}
+.talent-needs {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  justify-content: flex-start;
+  margin-top: 48px;
+}
+
+@media (max-width: 1024px){
+  .talent-section{
+    padding-top: 150px;
+  }
+}
+@media (max-width: 750px){
+  .talent-section{
+    padding-top: 115px;
+  }
+}

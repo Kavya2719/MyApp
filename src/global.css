@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap");
+@font-face {
+  font-family: Coolvetica;
+  src: url('/src/assests/coolvetica_rg.otf');
+}
+@font-face {
+  font-family: Gilroy-Regular;
+  src: url('/src/assests/Gilroy-Regular.ttf');
+}
+@font-face {
+  font-family: Gilroy-SemiBold;
+  src: url('/src/assests/Gilroy-SemiBold.ttf');
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --poppins-regular-20: Poppins;
+  --poppins-medium-20: Poppins;
+  --coolvetica-56: Coolvetica;
+  --font-gilroy-semibold: Gilroy-SemiBold;
+  --font-outfit: Outfit;
+  --font-gilroy-regular: Gilroy-Regular;
+
+  /* font sizes */
+  --poppins-regular-20-size: 20px;
+  --poppins-medium-20-size: 20px;
+  --font-size-sm: 14px;
+  --font-size-13xl: 32px;
+  --font-size-16xl-5: 35.5px;
+  --font-size-xs-4: 11.4px;
+  --font-size-xs: 12px;
+  --poppins-regular-16-size: 16px;
+  --coolvetica-56-size: 56px;
+  --poppins-medium-24-size: 24px;
+  --font-size-21xl: 40px;
+  --coolvetica-80-size: 80px;
+  --font-size-45xl: 64px;
+
+  /* Colors */
+  --white: #fff;
+  --blue: #6d38fb;
+  --blue-shade: #6333e3;
+  --color-blueviolet-100: #5c27c0;
+  --neon: #beeb42;
+  --text-dark: #202020;
+  --color-gray-100: #1e1e1e;
+  --color-darkgray: #a0a0a0;
+  --color-gainsboro: rgba(217, 217, 217, 0.4);
+  --text-medium: #4b4b4b;
+  --color-green: #379200;
+  --color-orchid: #fa50ca;
+  --text-light: #bbbbbd;
+
+  /* Gaps */
+  --gap-13xl: 32px;
+  --gap-7xs: 6px;
+  --gap-base: 16px;
+  --gap-xs: 12px;
+  --gap-5xs: 8px;
+  --gap-21xl: 40px;
+  --gap-5xl: 24px;
+  --gap-45xl: 64px;
+  --gap-37xl: 56px;
+  --gap-xl: 20px;
+  --gap-9xs: 4px;
+  --gap-4xs-3: 8.3px;
+
+  /* Paddings */
+  --padding-21xl: 40px;
+  --padding-101xl: 120px;
+  --padding-13xl: 32px;
+  --padding-5xs: 8px;
+  --padding-3xs: 10px;
+  --padding-6xl: 25px;
+  --padding-sm: 14px;
+  --padding-90xl: 109px;
+  --padding-xs: 12px;
+  --padding-4xl: 23px;
+  --padding-mini-5: 14.5px;
+  --padding-lg-2: 18.2px;
+  --padding-7xs: 6px;
+
+  /* border radiuses */
+  --br-7xs-7: 5.7px;
+  --br-9xs: 4px;
+  --br-21xl: 40px;
+  --br-3xs: 10px;
+  --br-5xs: 8px;
+  --br-5xs-2: 7.2px;
+  --br-smi-3: 12.3px;
+}
+
+.hero-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hire-page {
+  background-color: var(--white);
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--coolvetica-56-size);
+  color: var(--text-dark);
+  font-family: var(--coolvetica-56);
+}
+button{
+  cursor: pointer;
+}

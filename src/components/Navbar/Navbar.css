@@ -1,0 +1,75 @@
+.normal {
+  position: relative;
+  line-height: 130%;
+  font-weight: 400;
+}
+.highlight {
+  position: relative;
+  line-height: 130%;
+  font-weight: 500;
+}
+.navbar-element {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.talentfinder {
+  position: relative;
+}
+.navbar-element-parent,
+.navbar-element2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.navbar-element2 {
+  overflow: hidden;
+  padding: var(--padding-5xs) 0;
+  align-items: flex-start;
+  color: var(--blue-shade);
+}
+.navbar-element-parent {
+  align-items: center;
+  gap: var(--gap-13xl);
+  text-align: center;
+  font-size: var(--poppins-medium-20-size);
+  color: var(--text-medium);
+  font-family: var(--poppins-medium-20);
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  /* background-color: var(--white); */
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+  padding: 40px 120px var(--padding-13xl);
+  box-sizing: border-box;
+  justify-content: space-between;
+  /* margin-top: -2939px; */
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--blue-shade);
+  z-index: 1000;
+}
+button {
+  border: none;
+}
+.menu-btn {
+  /* color: white; */
+  font-size: 30px;
+}
+@media (max-width: 1024px){
+  .navbar{
+    padding: 40px 30px var(--padding-13xl);
+  }
+}
+@media (max-width: 750px) {
+  .navbar {
+    padding: 15px 30px 5px 30px;
+  }
+}

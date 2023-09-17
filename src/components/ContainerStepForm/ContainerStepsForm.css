@@ -1,0 +1,51 @@
+/* .simple-steps {
+  color: var(--blue-shade);
+}
+.top-quality-remote-hiring-container {
+  position: absolute;
+  top: 80px;
+  left: calc(50% - 492px);
+  line-height: 100%;
+  font-family: var(--coolvetica-56);
+}
+.begin-your-journey {
+  margin: 0;
+}
+.begin-your-journey-container {
+  position: absolute;
+  top: 149px;
+  left: calc(50% - 271px);
+  font-size: var(--poppins-medium-20-size);
+  line-height: 130%;
+  color: var(--text-medium);
+  display: inline-block;
+  width: 541px;
+}
+.frame-parent3 {
+  position: absolute;
+  top: 253px;
+  left: calc(50% - 586px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-37xl);
+  font-size: var(--poppins-medium-24-size);
+}
+.steps {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 554px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--coolvetica-56-size);
+  color: var(--text-dark);
+  font-family: var(--poppins-medium-20);
+} */
+
+#stepsText {
+  width: 100%;
+  color: var(--text-medium)
+}

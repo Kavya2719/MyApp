@@ -1,0 +1,65 @@
+.container-with-image-and-text {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 52px;
+  border: 2px solid #bbbbbd;
+  border-radius: 8px;
+  gap: 32px;
+  /* flex-wrap: wrap; */
+}
+.step-name-container {
+  box-sizing: border-box;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.coolvetica-heading {
+  box-sizing: border-box;
+  font: 400 40px Coolvetica;
+  color: #202020;
+}
+.tristique-venenatis-elementum-liber {
+  box-sizing: border-box;
+  font: 400 20px Poppins;
+  color: #4b4b4b;
+  line-height: 130%; 
+}
+.dark-gray-text {
+  color: #4b4b4b;
+}
+.container-image, .HowItWorksGirl {
+  box-sizing: border-box;
+  width: 425px;
+  height: 263px;
+}
+.image-container1 {
+  box-sizing: border-box;
+  display: block;
+  width: 425px;
+  height: 263px;
+  border: none;
+  object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  .container-with-image-and-text{
+    padding: 35px;
+  }
+}
+@media (max-width: 850px) {
+  .container-image, .HowItWorksGirl {
+    width: 100%;
+    height: fit-content;
+  }
+  .container-with-image-and-text{
+    flex-wrap: wrap;
+  }
+  .step-name-container{
+    text-align: center;
+  }
+}

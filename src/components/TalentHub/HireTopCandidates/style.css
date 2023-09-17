@@ -1,0 +1,76 @@
+.candidate-section {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+.top-candidates-section {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.top-candidates-heading {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  padding-bottom: 8.5px;
+  font: 400 64px Coolvetica;
+  color: #202020;
+}
+.top-candidates {
+  font-size: 64px;
+}
+.top-candidates-style {
+  font: 400 64px Coolvetica;
+  color: #6333e3;
+}
+.candidate-container {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  align-self: flex-end;
+  margin-left: -515px;
+}
+.text-container {
+  box-sizing: border-box;
+  display: block;
+  width: 209px;
+  max-width: initial;
+  height: 20px;
+}
+.img-content-9783d5f3 {
+  content: url("data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%27713.4000%20256.4000%20209.2000%2020.2000%27%20x%3D%270%27%20y%3D%270%27%20fill%3D%27none%27%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%3E%3Cpath%20id%3D%27Line%201%27%20d%3D%27M715%20275C747.021%20264.882%20833.051%20248.687%20921%20264.848%27%20stroke%3D%27%236333E3%27%20stroke-width%3D%273.2%27%20stroke-linecap%3D%27round%27%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%2F%3E%3C%2Fsvg%3E");
+}
+.hire-heading{
+  font-size: 64px !important;
+}
+.time-saving-message-container-sm{
+  display: none;
+  flex-direction: column;
+}
+
+@media (max-width: 750px){
+  .hire-heading{
+    font-size: 56px !important;
+  }
+  .time-saving-message-container-sm{
+    display: flex;
+  }
+}
+.pre-vetted-container {
+  display: flex;
+  align-items: last baseline;
+}
+#prevettedimg{
+  width: 300px;
+  margin-top: 12px;
+  margin-left: 8px;
+}
+@media (max-width: 750px){
+  #prevettedimg{
+    width: 265px;
+  }
+}

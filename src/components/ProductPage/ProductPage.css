@@ -1,0 +1,14 @@
+.benefits-image {
+  height: 80px;
+  width: 500px;
+}
+.benefits-img{
+  width: 335px !important;
+  height: 90px;
+}
+@media screen and (max-width: 1024px) {
+  .benefits-img{
+    width: 250px !important;
+    height: 65px;
+  }
+}

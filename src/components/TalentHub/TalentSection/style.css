@@ -1,0 +1,140 @@
+.frontend-container {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  margin-top: 15.5px;
+  width: 100%;
+}
+.main-container1 {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 359px;
+}
+.time-saving-message {
+  box-sizing: border-box;
+  font: 400 20px/86.66666412353516% Poppins;
+  color: #4b4b4b;
+  text-align: center;
+  line-height: 130%;
+}
+.img-content-17a46534 {
+  content: url("https://s3-alpha-sig.figma.com/img/6f89/1e59/f687601b98544fe2c3cb0db47faefad3?Expires=1694995200&Signature=VeGXqV4THothYWVzCiIgXH60XURoa4O9HYJaYJQVotsjrYbDVjcn6SJq22kvufNdo9gWu5LxVTGbCtX6WyL6gw1wVg4g7ji02CvvP4tWpnkPjoB92TEEqz-wYYklpjaGtnFs24K~0g6HaPJ3m9zy3WkizS-kXZI3O1ouUFF1QJyfJD4AeKoWJepaa00InWRoBZamVgNoUW~bm-TpN0Rnnk-J~Urv9e8r0wDWLiP3YMAHrLyZuzvzCGwZH7i1N59Ou2Ttpj-IPPaZJukkM3-pBGBrU5~-SKUJnyCQq5uavWufzYnpG0Sy-wnajZKfz3FtE8h~GcJ5i9aDqQH6qp0Hjg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+}
+.software-developer {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  font: 400 12px Poppins;
+  color: #202020;
+  text-transform: capitalize;
+}
+.product-designer-container {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  align-self: stretch;
+  justify-content: space-between;
+  margin-top: 4px;
+}
+.image-container14 {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+}
+.image-container8 {
+  box-sizing: border-box;
+  display: block;
+  width: 22px;
+  max-width: initial;
+  height: 20px;
+  border: none;
+  object-fit: cover;
+}
+.img-content-96ddc92 {
+  content: url("https://s3-alpha-sig.figma.com/img/c5e0/8023/d0031e43608b112a5159e3e607af39b8?Expires=1694995200&Signature=izjWDGLO-l1wh0PGK6~tlzyKGm0oFxx3Mp~VcXv63CbzgJvnEoPVFyT0Ic~7vJyooFeRmCt3uRnIguTl9FJbEPgbd32kYK~FNI~UEz0HHHRI9RrCvQF~NUAI5-xqA~KEtLkkkB0wJtDJ24k01TzmaVT0xi31gPbL9-bjeZnTH24YY9YTiZoPGljW2e0t9T9zfjr~1uDdirf-qzY2DYi22jqenfBoBVBTcoh5CJneCV14Ll4ZTXDy2M1ardx4PwrR6fWx97MFmtMF0ZDIvdW8RTF7dkA98C7Lb9oxK2KrwomOOJ6vflVGkw5sFZUM8NSbInLH3nFAxltNUe5LFm7gIA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+}
+.img-content-293d76ce {
+  content: url("https://s3-alpha-sig.figma.com/img/f523/0a52/2ec2136fec8b9e8a98ded118fa64c904?Expires=1694995200&Signature=qF6vNuVSuaizNNIPgEsQOvTGTmn54qsCPgCv4H~OmjxzqHgu7nQMmfNcPLNawUQrNydd~R14xmdR4L0CxEzjhTeuapGggra0t3kS72me73ClXTS6Lx77XjcDQUlFyUbtvMLiJL-YeRV7yxhRpucB2d-a7l55ahoq4EQ7R0T~vVOTTbaExdNwgxJehOJ4Deh0F5hefa8itwAM2mEnSfJwmb333HJUzI7tcABj-R4iw~aFDRiKib5r25T4ZBeuDqtMJWDFfQ-1ZW-GNksnWehyOQ6Z6GscdXsB0m-ei0gAAoVosGxqS5K4juRG3UZeqEXrN0kEHdPtuWKGY2DsvrsB1g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+}
+.image-container17 {
+  box-sizing: border-box;
+  display: block;
+  width: 48px;
+  max-width: initial;
+  height: 11.5px;
+  border: none;
+  object-fit: cover;
+}
+.img-content-a24951ab {
+  content: url("https://s3-alpha-sig.figma.com/img/d1c6/df97/41b6e8fe3a198e8b03423db146724b56?Expires=1694995200&Signature=oCeN1kphZ~JhLdABEQvtSQfaDy71QbjsV7hJ1xty9qZiVG2uwoH8glKoPcVLx6idGXIkNHBbMOWmoTma1KPKLvsLlfPj1O9rxWsjQubcuRr00a~XAQ-l404l5xVswKJT2QCx-drQ9jAxAynqRomGk~5G1NejItiPjsdRZ~CErNk3JcC-lMUhNG2lii7RoWxIl25KUwYWNfDDpW98m4ZEDqBRUCOxRko9HNzUYwY18iyeG64cjad0v-bREG5iMzcwiZcIAvA6UEM8fGlx3wnZjTBB0MKAhx~9qoJEXLc1U~P3uaV82xzrEQDL6SHiRt3Q5KuhFv6BmDIu-8vFgIqkCg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+}
+.card-row{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  position: absolute;
+  top: 199px;
+}
+.green-box {
+  box-sizing: border-box;
+  background: #beeb42;
+  border-radius: 12.5px;
+}
+.product-designer-container1 {
+  position: absolute;
+  margin-left: 200px;
+  margin-bottom: 14px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 130px;
+  padding: 6px 12px;
+  background: white;
+  border: 1.5px solid #beeb42;
+  border-radius: 7.25px;
+}
+#btn-sm{
+  display: none !important;
+}
+
+@media (max-width: 750px){
+  .card-row{
+    top: 280px;
+  }
+  .main-container1{
+    height: 425px;
+  }
+  #btn-sm{
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .time-saving-message-container-lg{
+    display: none;
+  }
+  .frontend-container{
+    margin-top: 0px;
+  }
+  .main-container{
+    top: unset;
+  }
+}
+@media (max-width: 462px){
+  .card-row{
+    top: 340px;
+    justify-content: flex-start;
+    margin-left: 15px;
+  }
+  .product-designer-container1 {
+    margin-left: 100px;
+  }
+  .main-container1{
+    height: 480px;
+  }
+}
